@@ -1,0 +1,12 @@
+main .star-container {
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+main .star-container .star-line {
+    height: 4px;
+    border-radius: 2px;
+    flex-grow: 1;
+}
