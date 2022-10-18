@@ -1,3 +1,10 @@
+:root {
+    --bs-primary: #1abd9c;
+    --bs-primary-rgb: 26, 189, 156;
+    --bs-primary-light: #49eccc;
+    --bs-primary-dark: #088d72;
+}
+
 main .star-container {
     display: flex;
     align-items: center;
@@ -9,4 +16,27 @@ main .star-container .star-line {
     height: 4px;
     border-radius: 2px;
     flex-grow: 1;
+}
+
+.btn.my-btn-primary {
+    background-color: var(--bs-primary);
+}
+
+.btn.my-btn-primary:hover {
+    background-color: var(--bs-primary-light);
+}
+
+.btn.my-btn-primary:active {
+    background-color: var(--bs-primary-dark);
+}
+
+.my-form-control {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+}
+
+textarea.my-form-control {
+    min-height: 200px;
 }

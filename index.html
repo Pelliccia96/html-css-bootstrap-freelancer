@@ -117,7 +117,9 @@
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <a class="text-white text-decoration-none border rounded p-2 px-3" href="#">Download</a>
+                        <div>
+                            <button class="btn my-btn-primary text-white border-white"><i class="fa-solid fa-download"></i> Download</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -134,13 +136,25 @@
                     </div>
                 </div>
                 <div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item pb-4 fw-bold">Name</li>
-                        <li class="list-group-item pb-4 fw-bold">Email Address</li>
-                        <li class="list-group-item pb-4 fw-bold">Phone Number</li>
-                        <li class="list-group-item pb-4 pb-5 fw-bold">Message</li>
-                        <li class="list-group-item pt-4"><a class="bg-success text-white text-decoration-none border rounded p-2 px-3" href="#">Send</a></li>
-                    </ul>
+                    <div class="form-floating mb-1">
+                        <input type="email" class="form-control my-form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput"><span class="fw-bold">Name</span></label>
+                    </div>
+                    <div class="form-floating mb-1">
+                        <input type="email" class="form-control my-form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput"><span class="fw-bold">Email Address</span></label>
+                    </div>
+                    <div class="form-floating mb-1">
+                        <input type="email" class="form-control my-form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput"><span class="fw-bold">Phone Number</span></label>
+                    </div>
+                    <div class="form-floating">
+                        <textarea class="form-control my-form-control" id="floatingInput" placeholder="name@example.com"></textarea>  
+                        <label for="floatingInput"><span class="fw-bold">Message</span></label>
+                    </div>
+                    <div class="py-4">
+                        <button class="btn my-btn-primary text-white">Send</button>
+                    </div>
                 </div>
             </div>
         </section>
