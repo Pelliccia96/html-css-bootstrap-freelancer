@@ -3,6 +3,10 @@
     --bs-primary-rgb: 26, 189, 156;
     --bs-primary-light: #49eccc;
     --bs-primary-dark: #088d72;
+    --bs-secondary: #2c3e50;
+    --bs-secondary-rgb: 44, 62, 80;
+    --bs-info: #3a546d;
+    --bs-info-rgb: 58, 84, 109;
 }
 
 main .star-container {
