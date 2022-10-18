@@ -40,3 +40,8 @@ main .star-container .star-line {
 textarea.my-form-control {
     min-height: 200px;
 }
+
+footer .btn.my-btn-primary {
+    background-color: transparent;
+    color: white;
+}
